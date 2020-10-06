@@ -98,7 +98,7 @@ echo -e "\\n${COLOR_INFO}> Starting SSL apps${COLOR_RESET}"
 make run-ssl
 
 echo -e "\\n${COLOR_SUCCESS}✅ Richie is up and running on https://richie.local.dev:8070 !"
-echo -e "${COLOR_WARNING}Next time, just use command below to start richie over ssl"
-echo -e "\\nmake run-ssl\\n"
+echo -e "\\n${COLOR_WARNING}Next time, just use command below to start richie over ssl"
+echo -e "> make run-ssl\\n"
 
 exit 0

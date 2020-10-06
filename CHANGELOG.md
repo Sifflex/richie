@@ -20,6 +20,13 @@ Versioning](https://semver.org/spec/v2.0.0.html).
 - Replace course-detail__run-cta in fragment_course_run template by
   course-run-enrollment__cta
 
+### Changed
+
+- Add AUTHENTICATION_DELEGATION setting
+- Refactor the optional LMS connector to focus on OpenEdX and use its session
+  directly through CORS requests from the frontend.
+- Delegate course run enrollment logic to frontend.
+
 ## [2.0.0-beta.15] - 2020-10-06
 
 ### Added
@@ -135,7 +142,7 @@ Versioning](https://semver.org/spec/v2.0.0.html).
 - Lowered down global 'h1' and 'h2' font size and added new
   'extra-font-size' variable with previous h1 value.
 - Adjust title size 'large_banner' variants.
-- Fix accordion button 'nested-item\_\_title' alignment to the left.
+- Fix accordion button 'nested-item__title' alignment to the left.
 - Another attempt to definitively fix the glitch with wave decoration
   and Chrome zoom/unzoom.
 - Add a little bit of space between banner and title on organization
