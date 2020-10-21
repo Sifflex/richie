@@ -8,11 +8,16 @@ Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Changed
+
+- Remove usage of react-intl-po
+- Rework front i18n workflow
+
 ### Fixed
 
 - Improve sanitizing of input text on CKEditor plugin
-- Replace course-detail__run-cta in fragment_course_run template by
-  course-run-enrollment__cta
+- Replace course-detail**run-cta in fragment_course_run template by
+  course-run-enrollment**cta
 
 ## [2.0.0-beta.15] - 2020-10-06
 
